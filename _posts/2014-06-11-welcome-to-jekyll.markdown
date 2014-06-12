@@ -14,7 +14,7 @@ After remembering about `rvm` it was super easy.  What surprised me was that it 
 Since Jekyll offers "powerful support for code snippets" I suppose I should add one for previewing later:
 
 {% highlight javascript %}
-setTimeout(function(} { console.log("Knock knock..."); }, 0);
+setTimeout(function() { console.log("Knock knock..."); }, 0);
 setTimeout(function() { console.log("Who's there?");   }, 100);
 
 setTimeout(function() { console.log("Banana?")         }, 300);
