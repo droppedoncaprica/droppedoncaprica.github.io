@@ -2,7 +2,7 @@
 layout: post
 title:  "Don't Tell Me How To Live My Life, Jekyll!"
 date:   2014-06-11 22:43:01
-categories: jekyll update
+categories: jekyll update ruby gem rvm musings
 ---
 
 I've set up an initial Jekyll post to be hosted on GitHub and am pleasently surprised how easy it was to get this set up.
