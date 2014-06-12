@@ -14,11 +14,11 @@ After remembering about `rvm` it was super easy.  What surprised me was that it 
 Since Jekyll offers "powerful support for code snippets" I suppose I should add one for previewing later:
 
 {% highlight javascript %}
-console.log('Knock knock...');
-setTimeout(function("Who's there?") {}, 100);
+setTimeout(function(} { console.log("Knock knock..."); }, 0);
+setTimeout(function() { console.log("Who's there?");   }, 100);
 
-setTimeout(function("Banana?") {}, 300);
-setTimeout(function("NOT TODAY STEVE!") {}, 1000);
+setTimeout(function() { console.log("Banana?")         }, 300);
+setTimeout(function() { console.log("NOT TODAY STEVE!")}, 1000);
 {% endhighlight %}
 
 I guess that's about it.  I did hear the news about [Intel adding JavaScript bindings for SIMD](https://01.org/blogs/tlcounts/2014/bringing-simd-javascript) which was pretty cool.  One step closer to being [close to the metal!](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
