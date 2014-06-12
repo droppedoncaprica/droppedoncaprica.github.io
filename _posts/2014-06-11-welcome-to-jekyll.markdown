@@ -5,20 +5,23 @@ date:   2014-06-11 22:43:01
 categories: jekyll update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I've set up an initial Jekyll post to be hosted on GitHub and am pleasently surprised how easy it was to get this set up.
 
-Jekyll also offers powerful support for code snippets:
+One minor complaint I do have is with the Ruby installation.  After my intial installation using `apt` I wasn't able to install gem packages without `sudo`.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+After remembering about `rvm` it was super easy.  What surprised me was that it wasn't more promenent on the Ruby homepage.  The initial install was using some odd default Ruby folders.
+
+Since Jekyll offers "powerful support for code snippets" I suppose I should add one for previewing later:
+
+{% highlight javascript %}
+console.log('Knock knock...');
+setTimeout(function("Who's there?") {}, 100);
+
+setTimeout(function("Banana?") {}, 300);
+setTimeout(function("NOT TODAY STEVE!") {}, 1000);
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+I guess that's about it.  I did hear the news about [Intel adding JavaScript bindings for SIMD](https://01.org/blogs/tlcounts/2014/bringing-simd-javascript) which was pretty cool.  One step closer to being [close to the metal!](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
